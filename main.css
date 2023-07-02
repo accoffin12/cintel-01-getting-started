@@ -24,7 +24,7 @@ body {
 header {
   padding: 10px;
   text-align: center;
-  background-color: #007BFF;
+  background-color: #004d4d;
   color: white;
   font-size: 2em;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
@@ -46,13 +46,13 @@ header {
 .sidebar {
   flex: 1;
   padding: 10px;
-  background-color: #f0f0f0;
+  background-color: #008080;
   transition: background-color 0.5s ease;
   /* Gradual change when the color changes */
 }
 
 .sidebar:hover {
-  background-color: #E0E0E0;
+  background-color: #a3c2c2;
   /* Slightly darker gray when hovering over the sidebar */
 }
 
@@ -90,5 +90,5 @@ input[type=text] {
 /* When we click on an input element, it gets the 'focus' - change the border color */
 
 input[type=text]:focus {
-  border: 2px solid #007BFF;
+  border: 2px solid #004d4d;
 }
